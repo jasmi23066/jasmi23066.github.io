@@ -2,14 +2,58 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thumbspanel</title>
+    <style media="screen">
+    {
+  background-image: url(img_flwr.gif), url(paper.gif);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+}
+    h1 {
+      color: #4278f5;
+      text-shadow: -1px 0 purple, 0 1px purple, 1px 0 purple, 0 -1px purple;
+    }
+      div {
+        border: 1px solid black;
+        background-color:;
+        margin: 5px;
+        padding: 5px;
+      }
+      #content {
+        border: 5px  red;
+        background-color:;
+        margin: auto;
+        width: 60%;
+      }
+      .linksBox {
+
+        background-color:;
+      }
+      a {}
+        a:hover {}
+          a:visited {}
+            @media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+    </style>
   </head>
   <body>
-<h1>Thumbspanel</h1>
-<p><a href="http://172.21.3.4:5000/tutd?thumb=up">up</a></p>
-<p><a href="http://172.21.3.4:5000/tutd?thumb=down"> down</a></p>
-<p><a href="http://172.21.3.4:5000/tutd?thumb=wiggle">wiggle</a></p>
-<p>E</p>
+    <div id="content">
+    <div class="linksBox">
+      <h1>Thumbspanel</h1>
+      <p>This is a control panel for Formbar</p>
+</div>
+  <div class="linksBox">
+    <p><a href="game.html">Game</a></p>
+    <p><a href="http://172.21.3.4:5000/tutd?thumb=up">up</a></p>
+    <p><a href="http://172.21.3.4:5000/tutd?thumb=down"> down</a></p>
+    <p><a href="http://172.21.3.4:5000/tutd?thumb=wiggle">wiggle</a></p>
+  </div>
+<p> </p>
 <p></p>
+</div>
   </body>
 </html>
